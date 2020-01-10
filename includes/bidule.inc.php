@@ -1,3 +1,7 @@
 <h2>Ici bidule playa</h2>
 <p>lalala</p>
-<img src="biduleplage.jpg" alt="bidule à la plage">
+<div id="zoombiduleplage">
+<div>
+<div><img id="zoom" src="biduleplage.jpg" alt="bidule à la plage" /></div>
+</div>
+</div>

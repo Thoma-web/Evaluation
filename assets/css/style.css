@@ -36,13 +36,16 @@ form textarea {
   font-family: Verdana, Arial, sans-serif;
 }
 
-nav ul li {
+
+header nav ul li {
   display: inline-block;
   color: absolute;
   text-align: center;
   font-size: 3.2em;
   background-color: blue;
   background-position: center;
+  border: yellow 4px solid;
+  border-spacing: : 2em;
 }
 
 div#mainFlexed {
@@ -80,15 +83,11 @@ main section dl dd ul li, main aside dl dd ul li {
 
 main section {
   width: 70%;
-
-  /* Je mets une couleurs de fond juste pour visualiser */
   background-color: cadetblue;
 }
 
 main aside {
   width: 30%;
-
-  /* Vous avez le droit de dire que j'ai des goûts de merde */
   background-color: indianred;
 }
 
@@ -154,4 +153,25 @@ div .cvnul a{
   font-family: "Comic Sans MS";
   border: pink 10px solid;
   text-align: right;
+}
+
+#mentionslegales {
+  font-size: 1.2em;
+  text-align: center;
+  border-right: blue 180px solid;
+  border-top: darksolmon 15px solid;
+}
+
+#zoom {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  height: 150px;
+  margin: 20px 0px 20px 0px;
+
+}
+#zoom:hover {
+	-webkit-transform: scale(1.6);
+	transform: scale(1.6);
 }
