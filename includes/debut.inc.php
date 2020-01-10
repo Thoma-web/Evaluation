@@ -9,5 +9,5 @@ Il existe une interaction permanente et réciproque entre la conscience du sujet
 
 La Phénoménologie repose donc sur deux concepts essentiels : l'intentionnalité et la présence.
 L'intentionnalité : un mouvement de la conscience vers le monde, et un mouvement en retour du monde vers la conscience.
-La présence (au monde) : une expérience fondatrice et <a href="https://www.youtube.com/watch?v=lxyy_njLmxw" target="_blank">existentielle</a> de l'être humain.
+La présence (au monde) : une expérience fondatrice et <a href="https://www.youtube.com/watch?v=cUrxyNJpKy0" target="_blank">moment plaisir après avoir vomi ce site</a> de l'être humain.
 Par ce positionnement, la phénoménologie marque le caractère indissociable de la philosophie et de la psychologie. Elle critique toutes les tendances, scientifiques ou non, qui feraient de l'homme et du monde des objets.</p>
