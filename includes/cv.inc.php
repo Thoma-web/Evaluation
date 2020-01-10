@@ -3,7 +3,7 @@
   <header>
     <h4>Thomas Letellier</h4>
     <div id="photo">
-      <img src="0.jpeg" alt="photo du cv">
+      <img src="0.jpeg" alt="photo du cv" height="700px" width="900px">
     </div>
     <div id="infos photo">
       <p>76000 Rouen</p>
