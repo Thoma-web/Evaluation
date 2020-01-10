@@ -145,3 +145,12 @@ h3 {
   font-kerning: normal;
   font-weight: bolder;
 }
+
+div .cvnul a{
+  color: lightgreen;
+  font-size: 4em;
+  font-style: oblique;
+  font-family: "Comic Sans MS";
+  border: pink 10px solid;
+  text-align: right;
+}
