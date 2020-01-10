@@ -9,20 +9,10 @@ body {
 
 form {
   background-color: #D17979;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  width: 600px;
+  padding: 20px;
   width: 6em
-}
-
-form div {
-  padding: 10px 0;
-}
-
-form div label {
-  float: left;
-  width: 240px;
-  padding: 0 10px 0 0;
-  text-align: right;
 }
 
 form div input[type="submit"] {
@@ -32,8 +22,14 @@ form div input[type="submit"] {
   margin: 0 0 0 250px;
 }
 
-form fieldset {
+fieldset {
   outline: 2px solid red;
+  width: 200px;
+  margin:0 auto;
+  padding: 1em;
+  text-align: center;
+  font-size: 35px;
+  font-family: Impact;
 }
 
 form textarea {
@@ -49,76 +45,75 @@ nav ul li {
   background-position: center;
 }
 
-
-
 div#mainFlexed {
-    display: flex;
-    flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 main section, main aside {
-    padding: 10px;
+  padding: 10px;
 }
 
 main section dl dt, main aside dl dt {
-    margin: 50px 0 20px;
-    border-bottom: 1px solid #666;
+  margin: 50px 0 20px;
+  border-bottom: 1px solid #666;
 }
 
 main section dl dt.first, main aside dl dt.first {
-    margin: 0 0 20px;
+  margin: 0 0 20px;
 }
 
 main section dl dd, main aside dl dd {
-    display: list-item;
-    list-style-type: circle;
-    list-style-position: inside;
+  display: list-item;
+  list-style-type: circle;
+  list-style-position: inside;
 }
 
 main section dl dd ul, main aside dl dd ul {
-    padding: 0 0 0 30px;
+  padding: 0 0 0 30px;
 }
 
 main section dl dd ul li, main aside dl dd ul li {
-    list-style-type: square;
-    list-style-position: inside;
+  list-style-type: square;
+  list-style-position: inside;
 }
 
 main section {
-    width: 70%;
+  width: 70%;
 
-    /* Je mets une couleurs de fond juste pour visualiser */
-    background-color: cadetblue;
+  /* Je mets une couleurs de fond juste pour visualiser */
+  background-color: cadetblue;
 }
 
 main aside {
-    width: 30%;
+  width: 30%;
 
-    /* Vous avez le droit de dire que j'ai des goûts de merde */
-    background-color: indianred;
+  /* Vous avez le droit de dire que j'ai des goûts de merde */
+  background-color: indianred;
 }
 
 footer {
-    background-color: #333333;
-    color: #fff;
-    padding: 10px
+  background-color: #333333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
 footer a:link {
-    color: #999;
-    border-bottom: 1px dotted #999;
+  color: #999;
+  border-bottom: 1px dotted #999;
 }
 
 footer a:visited {
-    color: #333;
+  color: #333;
 }
 
 footer a:hover {
-    border-bottom: 1px solid #999;
+  border-bottom: 1px solid #999;
 }
 
 footer a:active {
-    color: #c00;
+  color: #c00;
 }
 
 p {
