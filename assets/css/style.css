@@ -1,0 +1,152 @@
+@import url('reset.css');
+
+body {
+  background-color: #88900E;
+  color: #000;
+  font-size: 14px;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+form {
+  background-color: #D17979;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em
+}
+
+form div {
+  padding: 10px 0;
+}
+
+form div label {
+  float: left;
+  width: 240px;
+  padding: 0 10px 0 0;
+  text-align: right;
+}
+
+form div input[type="submit"] {
+  background-color: red;
+  color: yellow;
+  font-size: 1.5em;
+  margin: 0 0 0 250px;
+}
+
+form fieldset {
+  outline: 2px solid red;
+}
+
+form textarea {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+nav ul li {
+  display: inline-block;
+  color: absolute;
+  text-align: center;
+  font-size: 3.2em;
+  background-color: blue;
+  background-position: center;
+}
+
+
+
+div#mainFlexed {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main section, main aside {
+    padding: 10px;
+}
+
+main section dl dt, main aside dl dt {
+    margin: 50px 0 20px;
+    border-bottom: 1px solid #666;
+}
+
+main section dl dt.first, main aside dl dt.first {
+    margin: 0 0 20px;
+}
+
+main section dl dd, main aside dl dd {
+    display: list-item;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+main section dl dd ul, main aside dl dd ul {
+    padding: 0 0 0 30px;
+}
+
+main section dl dd ul li, main aside dl dd ul li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+main section {
+    width: 70%;
+
+    /* Je mets une couleurs de fond juste pour visualiser */
+    background-color: cadetblue;
+}
+
+main aside {
+    width: 30%;
+
+    /* Vous avez le droit de dire que j'ai des goûts de merde */
+    background-color: indianred;
+}
+
+footer {
+    background-color: #333333;
+    color: #fff;
+    padding: 10px
+}
+
+footer a:link {
+    color: #999;
+    border-bottom: 1px dotted #999;
+}
+
+footer a:visited {
+    color: #333;
+}
+
+footer a:hover {
+    border-bottom: 1px solid #999;
+}
+
+footer a:active {
+    color: #c00;
+}
+
+p {
+  color: green;
+  font-family: serif;
+  font-size: 1.2em;
+  font-size-adjust: auto;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1 {
+  color: pink;
+  font-size: 2em;
+  font-family: fantasy;
+}
+
+h2 {
+  color: white;
+  font-size: 1em;
+  font-style: oblique;
+  font-family: cursive;
+}
+h3 {
+  color: #D47662;
+  font-size: 1.8em;
+  font-family: fantasy;
+  font-kerning: normal;
+  font-weight: bolder;
+}
